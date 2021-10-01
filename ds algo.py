@@ -33,5 +33,26 @@ class solution:
                     self.N_Queens(i+1,N)
                     
 N = 4
+
+Arrangment--->
+
+        _       Q       _       _ 
+
+        _       _       _       Q 
+
+        Q       _       _       _ 
+
+        _       _       Q       _ 
+
+Arrangment--->
+
+        _       _       Q       _ 
+
+        Q       _       _       _ 
+
+        _       _       _       Q 
+
+        _       Q       _       _ 
+
 obj = solution()        
 obj.N_Queens(1,N)
